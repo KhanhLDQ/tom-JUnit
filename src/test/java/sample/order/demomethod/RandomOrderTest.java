@@ -1,4 +1,4 @@
-package sample.order;
+package sample.order.demomethod;
 
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
