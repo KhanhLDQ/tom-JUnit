@@ -1,3 +1,5 @@
+package org.tommap.sample;
+
 import org.junit.jupiter.api.Test;
 
 class DemoTest {

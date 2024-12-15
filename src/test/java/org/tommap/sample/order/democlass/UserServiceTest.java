@@ -1,4 +1,4 @@
-package sample.order.democlass;
+package org.tommap.sample.order.democlass;
 
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

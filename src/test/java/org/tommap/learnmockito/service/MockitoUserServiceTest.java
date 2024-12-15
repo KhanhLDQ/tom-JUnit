@@ -1,4 +1,4 @@
-package learnmockito.service;
+package org.tommap.learnmockito.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -9,10 +9,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tommap.learnmockito.data.MockitoUserRepository;
 import org.tommap.learnmockito.model.MockitoUser;
-import org.tommap.learnmockito.service.EmailNotificationServiceException;
-import org.tommap.learnmockito.service.MockitoEmailVerificationService;
-import org.tommap.learnmockito.service.MockitoUserServiceException;
-import org.tommap.learnmockito.service.MockitoUserServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
