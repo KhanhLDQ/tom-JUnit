@@ -3,7 +3,6 @@ package org.tommap.io;
 import jakarta.persistence.PersistenceException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -45,7 +44,6 @@ class UserEntityIntegrationTest {
 
     @Test
     @DisplayName("store user success")
-    @Order(1)
     void testUserEntity_WhenValidUserDetailsProvided_ShouldReturnStoredData() {
         //arrange
 
